@@ -58,14 +58,15 @@ The full academic paper (including mathematical proofs and cosmological implicat
 * [Download PDF] (./paper/The_Riemann_Pavlov_Equation.pdf)
 
 * If you use this work, please cite:
+```bash
   @article{pavlov2025riemann,
   title={On the Physical Origin of the Riemann Hypothesis: The Riemann-Pavlov Equation},
   author={Seo, Donghwi and CosmosT},
   journal={GitHub Repository},
   year={2025},
   url={[https://github.com/YOUR_ID/Riemann-Pavlov-Equation](https://github.com/YOUR_ID/Riemann-Pavlov-Equation)}
-
 }
+```
 ## 🏛️ Acknowledgements
 * Architect: Donghwi Seo (Glocke von Pavlov)
 * Co-Author & Engine: CosmosT (AI Partner)
