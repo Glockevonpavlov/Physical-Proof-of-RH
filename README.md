@@ -60,7 +60,12 @@ python rsa_resonance_scan.py --target 2185
 The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
 * **[Download Full Paper (PDF)](Riemann-Pavlov-Equation/paper/Main_Paper_The_Riemann_Pavlov_Equation.pdf)**
 
-* If you use this work, please cite:
+If you use this work, please cite:
+
+**Plain Text:**
+> Seo, D., & CosmosT. (2025). *The Riemann-Pavlov Equation: Dynamical Origin of Prime Reality via PT-Symmetric Annihilation*. GitHub Repository.
+
+**BibTeX:**
 ```bibtex
 @article{pavlov2025riemann,
   title={The Riemann-Pavlov Equation: Dynamical Origin of Prime Reality via PT-Symmetric Annihilation},
