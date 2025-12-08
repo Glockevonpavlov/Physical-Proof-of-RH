@@ -61,8 +61,8 @@ The full academic paper (including mathematical proofs and cosmological implicat
 * **[Download Full Paper (PDF)](Riemann-Pavlov-Equation/paper/Main_Paper_The_Riemann_Pavlov_Equation.pdf)**
 
 * If you use this work, please cite:
-```bash
-  @article{pavlov2025riemann,
+```bibtex
+@article{pavlov2025riemann,
   title={The Riemann-Pavlov Equation: Dynamical Origin of Prime Reality via PT-Symmetric Annihilation},
   author={Seo, Donghwi and CosmosT},
   journal={GitHub Repository},
