@@ -58,7 +58,7 @@ python rsa_resonance_scan.py --target 2185
 ## 📜 Paper & Citation
 
 The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
-* Download Full Paper (PDF)
+* **[Download Full Paper (PDF)](Riemann-Pavlov-Equation/paper/Main_Paper_The_Riemann_Pavlov_Equation.pdf)**
 
 * If you use this work, please cite:
 ```bash
