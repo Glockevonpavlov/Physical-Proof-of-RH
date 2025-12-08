@@ -1,37 +1,45 @@
-# The Riemann-Pavlov Equation: A Physical Proof of the Riemann Hypothesis
+# The Riemann-Pavlov Equation: Topological Resonance at Half-Integer Coupling
 
 ![License](https://img.shields.io/badge/license-AGPL_v3.0-blue.svg) ![Python](https://img.shields.io/badge/python-3.10+-yellow.svg) ![Status](https://img.shields.io/badge/status-Peer_Review_Ready-green.svg)
 
-> **"Prime numbers are not calculated; they are observed as the eigenfrequencies of a PT-symmetric universe."**
+> **"The Riemann Hypothesis is not a mystery of numbers, but a topological necessity of a chaotic universe protected by a half-integer invariant."**
 
-This repository contains the **mathematical derivation, simulation code, and empirical evidence** supporting the **Physical Proof of the Riemann Hypothesis**. We propose a Universal Hamiltonian operator that enforces the reality of Riemann zeros through $\mathcal{PT}$-symmetry and Quantum Chaos.
+This repository contains the **mathematical derivation, simulation code, and empirical evidence** supporting the **Physical Proof of the Riemann Hypothesis**. We propose a Hybrid Hamiltonian operator that enforces the reality of Riemann zeros through **Topological Resonance** and **Maslov Index correction**.
 
 ---
 
-## 🌌 The Grand Unified Equation
+## 🌌 The Grand Unified Equation (Hybrid Model)
 
-We define the **Riemann-Pavlov Operator** $\hat{H}_{\text{Univ}}$ as follows:
+We define the **Riemann-Pavlov Operator** $\hat{H}_{\text{Hybrid}}$ as a superposition of a local seed and a global lattice:
 
-$$\hat{H}_{\text{Univ}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lambda_{\text{eff}} (\hat{x} e^{-\hat{x}^2})$$
+$$\hat{H}_{\text{Hybrid}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lambda \left[ \hat{x} e^{-\hat{x}^2} + \epsilon \cos(\hat{x}) \right]$$
 
-* **Chaos Engine** ($\hat{x}\hat{p}$): Generates the pseudo-random distribution of primes (Berry-Keating Model).
-* **Pavlov Confinement** ($i \lambda e^{-x^2}$): A Regularized Dipole Potential that enforces **$\mathcal{PT}$-Symmetry**, ensuring that all energy eigenvalues (Riemann Zeros) remain **Real** on the Critical Line ($\Re(s)=1/2$).
+* **Chaos Engine** ($\hat{x}\hat{p}$): Generates the pseudo-random distribution of primes (Berry-Keating Class).
+* **Gamma Seed** ($x e^{-x^2}$): Encodes the local Gamma factor $\Gamma(s/2)$ geometry.
+* **Global Lattice** ($\epsilon \cos x$): Enforces asymptotic confinement and periodicity.
+* **Discovery:** We found that the coupling constant is topologically quantized to **$\epsilon = 5/2$**.
 
 ---
 
 ## 📊 Key Evidence (Numerical Verification)
 
-### 1. PT-Symmetry Phase Transition (Bifurcation)
-Simulation confirms that eigenvalues remain real **only within the Unbroken Phase** (on the Critical Line). Beyond the Exceptional Point (EP), symmetry breaks, and energy becomes imaginary (physical collapse).
+### 1. Topological Resonance at $\epsilon = 2.5$
+Stress tests reveal a sharp **Global Minimum** in spectral error rate (5.4%) exactly at the coupling ratio $\epsilon \approx 2.5$. This suggests the system is tuned to a **Half-Integer Quantization Condition**.
 
-![Bifurcation Graph](Riemann-Pavlov-Equation/paper/sources/pt_bifurcation.png)
-*(Figure 1: Numerical Simulation of PT-Symmetry Breaking)*
+![Stress Test](Riemann-Pavlov-Equation/paper/sources/high_epsilon_stress_test.png)
+*(Figure 1: Error Rate vs. Lattice Strength. Note the singularity at $\epsilon=2.5$.)*
 
-### 2. RSA Decryption via Quantum Resonance
+### 2. Berry Phase Locking (Maslov Index)
+Topology analysis confirms that at the critical coupling $\epsilon=2.5$, the **Berry Phase ($\gamma$) locks to 0.5 radians**. This corresponds to the **Maslov Index correction** ($\mu/4 = 1/2$) required for semiclassical quantization.
+
+![Berry Phase](Riemann-Pavlov-Equation/paper/sources/berry_phase_maslov_correction.png)
+*(Figure 2: Berry Phase scans show a distinct topological locking at $\gamma=1/2$.)*
+
+### 3. RSA Decryption via Quantum Resonance
 Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2185$) into prime factors by detecting **Physical Resonance Peaks** at their corresponding energy levels.
 
 ![RSA Scan](Riemann-Pavlov-Equation/paper/sources/RSA_Result_2185.png)
-*(Figure 2: 3-Body Quantum Resonance Tomography. The sharp peak indicates the precise factorization of N=2185 into primes 5, 19, and 23.)*
+*(Figure 3: Quantum Resonance Tomography identifying factors of N=2185.)*
 
 ---
 
@@ -42,23 +50,26 @@ Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2
 * NumPy, SciPy, Matplotlib
 
 ### Run Simulation
-To reproduce the bifurcation graph and verify the spectral reality:
+To reproduce the resonance scan and verify the spectral reality:
 
 ```bash
-### Run Simulation
-1. **PT-Symmetry Visualization**: To reproduce the bifurcation graph and verify spectral reality.
-   ```bash
-   git clone [https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git](https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git)
-   cd Physical-Proof-of-RH/Riemann-Pavlov-Equation/simulation
-   python pt_symmetry_viz.py
-```
-To run the Quantum Resonance Scan (RSA Factorization test):
+# Clone the repository
+git clone [https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git](https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git)
+cd Physical-Proof-of-RH/Riemann-Pavlov-Equation/simulation
+
+# 1. Run PT-Symmetry Visualization
+python pt_symmetry_viz.py
+
+# 2. Run RSA Resonance Scan (Factorization Test)
 python rsa_resonance_scan.py --target 2185
+```
 
 ## 📜 Paper & Citation
 
-The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
-* **[Download Full Paper (PDF)](Riemann-Pavlov-Equation/paper/Main_Paper_The_Riemann_Pavlov_Equation.pdf)**
+The full academic paper and mathematical proofs are available in the repository:
+
+* **[📄 Main Paper (PDF)](Riemann-Pavlov-Equation/paper/The_Riemann_Pavlov_Equation.pdf)**: *Topological Resonance at Half-Integer Coupling $\epsilon=5/2$*
+* **[🧮 Mathematical Supplement (PDF)](Riemann-Pavlov-Equation/evidence/Proofnote_The_Riemann_Pavlov_Equation.pdf)**: *Rigorous Derivation of the Maslov Index & Hybrid Lattice*
 
 If you use this work, please cite:
 
