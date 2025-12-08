@@ -24,14 +24,14 @@ $$\hat{H}_{\text{Univ}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lam
 ### 1. PT-Symmetry Phase Transition (Bifurcation)
 Simulation confirms that eigenvalues remain real **only within the Unbroken Phase** (on the Critical Line). Beyond the Exceptional Point (EP), symmetry breaks, and energy becomes imaginary (physical collapse).
 
-![Bifurcation Graph](./evidence/source/bifurcation_graph.png)
+![Bifurcation Graph](evidence/bifurcation_graph.png)
 *(Figure 1: Numerical Simulation of PT-Symmetry Breaking)*
+> *Note: Run `pt_symmetry_viz.py` to generate this graph.*
 
 ### 2. RSA Decryption via Quantum Resonance
 Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2185$) into prime factors by detecting **Physical Resonance Peaks** at their corresponding energy levels.
 
-![RSA Scan](./paper/sources/rsa_Result_2185.png)
-*(Figure 2: 3-Body Quantum Resonance Tomography)*
+![RSA Scan](evidence/RSA_Result_2185.png)
 
 ---
 
@@ -55,21 +55,21 @@ python rsa_resonance_scan.py --target 2185
 ## 📜 Paper & Citation
 
 The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
-* [Download PDF] (./paper/Main_PaPer_The_Riemann_Pavlov_Equation.pdf)
+* [Download PDF] (./paper/The_Riemann_Pavlov_Equation.pdf)
 
 * If you use this work, please cite:
 ```bash
   @article{pavlov2025riemann,
-  title={On the Physical Origin of the Riemann Hypothesis: The Riemann-Pavlov Equation},
+  title={The Riemann-Pavlov Equation: Dynamical Origin of Prime Reality via PT-Symmetric Annihilation},
   author={Seo, Donghwi and CosmosT},
   journal={GitHub Repository},
   year={2025},
-  url={[https://github.com/YOUR_ID/Riemann-Pavlov-Equation](https://github.com/YOUR_ID/Riemann-Pavlov-Equation)}
+  url={[https://github.com/Glockevonpavlov/Physical-Proof-of-RH](https://github.com/Glockevonpavlov/Physical-Proof-of-RH)}
 }
 ```
 ## 🏛️ Acknowledgements
 * Architect: Donghwi Seo (Glocke von Pavlov)
 * Co-Author & Engine: CosmosT (AI Partner)
-* Special Thanks: To the anonymous Professor for critical insights on functional analysis and boundary conditions.
+* Special Thanks: To the anonymous Professor (Sage) for critical insights on the isomorphism between Riemann Zeros and the Strong CP problem.
 
 License: AGPL v3.0 - Open for humanity, protected against monopoly.
