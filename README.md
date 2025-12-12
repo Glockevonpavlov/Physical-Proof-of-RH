@@ -69,7 +69,7 @@ python rsa_resonance_scan.py --target 2185
 The full academic paper and mathematical proofs are available in the repository:
 
 * **[📄 Main Paper (PDF)](Riemann-Pavlov-Equation/paper/The_Riemann_Pavlov_Equation.pdf)**: *Topological Resonance at Half-Integer Coupling $\epsilon=5/2$*
-* **[🧮 Mathematical Supplement (PDF)](Riemann-Pavlov-Equation/evidence/Proofnote_The_Riemann_Pavlov_Equation.pdf)**: *Rigorous Derivation of the Maslov Index & Hybrid Lattice*
+* **[🧮 Mathematical Supplement (PDF)](Riemann-Pavlov-Equation/paper/Proofnote_The_Riemann_Pavlov_Equation.pdf)**: *Rigorous Derivation of the Maslov Index & Hybrid Lattice*
 
 If you use this work, please cite:
 
